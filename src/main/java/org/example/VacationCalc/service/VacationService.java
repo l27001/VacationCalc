@@ -15,7 +15,6 @@ public class VacationService {
 
     public VacationService(HolidayConfig holidayConfig) {
         this.holidays = holidayConfig.getHolidays();
-        System.out.println(this.holidays);
     }
 
     public double calculate(double avgSalary, int vacationDays) {
